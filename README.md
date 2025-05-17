@@ -52,16 +52,15 @@ CollabMeet is a full-stack web application inspired by Microsoft Teams. It enabl
       npm install
 # Create a .env file
      touch .env
-* .env Configuration
+.env Configuration
 
        MONGO_URI=your_mongodb_connection_string
        JWT_SECRET=your_jwt_secret
-
-       npm start
+ Run on Terminal
+ 
+         npm start
 3. Setup Frontend
-bash
-Copy
-Edit
-cd ../client
-npm install
-npm start
+
+       cd ../client
+       yarn install
+       yarn start
