@@ -1,95 +1,63 @@
-📞 CollabMeet
+# 📞 CollabMeet
 CollabMeet is a full-stack web application inspired by Microsoft Teams. It enables users to create conversations, exchange messages in real-time, and manage virtual meeting spaces. Built using the MERN stack (MongoDB, Express, React, Node.js), it supports user authentication, message persistence, and a clean, responsive UI.
 
-🚀 Features
-🔒 User Authentication (JWT-based)
+# 🚀 Features
+* 🔒 User Authentication (JWT-based)
 
-💬 Real-time chat interface
+* 💬 Real-time chat interface
 
-📁 Persistent conversations with messages
+* 📁 Persistent conversations with messages
 
-📝 Start new calls / meeting rooms
+* 📝 Start new calls / meeting rooms
 
-📜 Conversation and message sorting by timestamp
+* 📜 Conversation and message sorting by timestamp
 
-📦 RESTful API using Express.js
+* 📦 RESTful API using Express.js
 
-🧠 State management with Redux
+* 🧠 State management with Redux
 
-🧰 Tech Stack
-Frontend
+# 🧰 Tech Stack
 
-React.js
+* Frontend
 
-Redux for state management
+  * React.js
 
-Material-UI for components
+  * Redux for state management
 
-Axios for HTTP requests
+  * Material-UI for components
 
-Backend
+  * Axios for HTTP requests
 
-Node.js
+* Backend
 
-Express.js
+  * Node.js
 
-MongoDB with Mongoose ODM
+  * Express.js
 
-JWT Authentication
+  * MongoDB with Mongoose ODM
 
-bcrypt for password hashing
+  * JWT Authentication
 
-📂 Folder Structure
-bash
-Copy
-Edit
-CollabMeet/
-│
-├── client/                 # React Frontend
-│   ├── src/
-│   │   ├── actions/        # Redux action creators
-│   │   ├── components/     # Chat UI components
-│   │   ├── views/          # Page-level views (Chat, Auth)
-│   │   └── App.js          # Main app entry
-│   └── package.json
-│
-├── server/                 # Express Backend
-│   ├── models/             # Mongoose models (User, Conversation, Message)
-│   ├── routes/             # Express routes
-│   ├── controllers/        # Logic for routes (if modularized)
-│   └── index.js            # Server entry point
-│
-└── README.md
-🛠️ Installation & Setup
-Prerequisites
-Node.js and npm installed
+  * bcrypt for password hashing
+    
+# Installation and SetUp
 
-MongoDB running locally or a MongoDB Atlas URI
+* Clone the Repository
 
-1. Clone the Repository
-bash
-Copy
-Edit
-git clone https://github.com/yourusername/CollabMeet.git
-cd CollabMeet
-2. Setup Backend
-bash
-Copy
-Edit
-cd server
-npm install
+        git clone https://github.com/yourusername/CollabMeet.git
+        cd CollabMeet
+* Setup Backend
+
+      cd server
+      npm install
 # Create a .env file
-touch .env
-.env Configuration
-ini
-Copy
-Edit
-MONGO_URI=your_mongodb_connection_string
-JWT_SECRET=your_jwt_secret
-bash
-Copy
-Edit
-npm start
+     touch .env
+* .env Configuration
+
+       MONGO_URI=your_mongodb_connection_string
+       JWT_SECRET=your_jwt_secret
+
+       npm start
 3. Setup Frontend
 bash
 Copy
